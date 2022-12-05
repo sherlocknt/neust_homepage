@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF2CC !important;
+}
+
+.main-nav {
+    background: #003366;
+}
+
+#pst-container {
+    margin-right: 4rem;
+}
+
+.navbar-brand{
+    margin-left: 4rem;
+}
+
+
+.link-content {
+    background: #003366;
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+
+.nav-links .item {
+    display: inline-block;
+    padding: 0 3px;
+}
+
+.nav-links .item a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links .item a button, .nav-links .item button {
+    color: #fff;
+    border-color: #fff;
+    font-weight: 500;
+}
+
+.nav-links .item a button:hover, .nav-links .item button:hover  {
+    background: #FF8C00;
+}
+
+.active {
+    background: #FF8C00;
+    border-radius: 5px;
+}
+
+.puller {
+    margin-left: 1rem;
+    position: absolute;
+}
+
+.puller button {
+    border: none;
+    background: transparent;
+    color:#FF8C00;
+    font-size: 28px;
+}
+
+
+/* dropdown */
+.dropdown:hover .dropbtn {
+    background: #FF8C00;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003366;
+    min-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a, .dropdown-content-faqs a{
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: 500;
+}
+  
+.dropdown-content a:hover, .dropdown-content-faqs a:hover {
+    background-color: #FF8C00;
+    color: #fff;
+}
+  
+.dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content-faqs {
+    display: block;
+}
+
+/* dropend */
+
+.dropend:hover .dropendbtn {
+  background: #FF8C00;
+}
+
+.dropend-content {
+  left: 100%;
+  display: none;
+  position: absolute;
+  top: 1px;
+  background-color: #003366;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropend-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropend:hover .dropend-content {
+  display: block;
+}
+
+/* faqs */
+.dropdown-content-faqs {
+  right: 1%;
+  display: none;
+  position: absolute;
+  background-color: #003366;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* content */
+
+.container {
+    margin-top: 3rem;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    left: 20px;
+    
+}
+.carousel-control-next-icon {
+    position: absolute;
+    right: 20px;
+}   
+
+.col img {
+    width: 100%;
+    height: 80%;
+    margin-top: 5rem;
+}
+
+.row-board {
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* center {
+    margin-top: 3rem;
+    height: auto;
+} */
+
+.col {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+
+#panel-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row-board:after, .row-board:before {
+    content: ' ';
+    display: table;
+}
+
+.row-board:after {
+    clear: both;
+}
+
+center {
+    display: block;
+    text-align: center;
+}
+
+/* @media screen and (min-width: 64em) {
+    .large-3 {
+        width: 25%;
+    }
+} */
+.columns {
+    width: 25%;
+    float: left;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+#panel-bottom .widget {
+    padding: 1rem 0;
+}
+
+#panel-bottom h3 {
+    margin-top: 1rem;
+    background: none;
+    color: black;
+    font-size: 9pt!important;
+    height: 50px;
+}
+
+.widget-title {
+    border-radius: 5px 5px 0px 0px;
+    border-radius: 0px;
+    background: #003366;
+    background: #f89318;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: tahoma!important;
+    font-size: 10pt;
+    font-weight: normal;
+    letter-spacing: .3em;
+}
+
+#media_image-10 img, #media_image-11 img, #media_image-12 img, #media_image-13 img {
+    margin: auto auto!important;
+    border-radius: 12px!important;
+}
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+.row-board img {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* logo */
+#main-content {
+    margin-bottom: 50px;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 10rem;
+}
+
+#main-content:after, #main-content:before {
+    content: ' ';
+    display: table;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.college_logo .col {
+    float: left;
+    width: 7.6923%; 
+}
+
+.college_logo .col img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+}
+
+/* footer */
+.contact {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.school-name {
+    color: #fea01a;
+    margin-top: 3rem;
+}
+
+.con {
+   
+    margin-top: 2rem;
+}
+
+.contact p {
+    color: #fea01a;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* updates */
+
+.row-updates {
+    margin-top: 4rem;
+}
+
+.col-categories {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.col-posts {
+    float: left;
+    width: 66.67%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row-updates:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cat-list {
+    padding-bottom: 19px;
+}
+
+.cat-list li, .posts-list li{
+    list-style: none;
+    margin: 5px 0;
+}
+
+.col-categories aside, .col-posts aside{
+    border: solid 1px #fea01a;
+}
+
+.row-updates a {
+    text-decoration: none;
+    color: #003366;
+}
+
+/* buttons */
+.but-tons {
+    margin-top: 6rem;
+}
+
+.btn-group {
+    width: 100%;
+    height: 5rem;
+}
+
+.btn-group .btn {
+    font-weight: 500;
+    font-size: 20px;
+    background: #003366;
+    border: 3px solid #f89318;
+    color: #FFF2CC;
+    border-radius: 5px;
+}
+
+.btn-group .btn:hover {
+    background: #f89318;
+    color: #fff;
+    border-color: #f89318;
+}
+
+.btn-group .btn i {
+    padding-right: 1rem;
+    font-size: 20px;
+}
+
+.btn-group .btn label {
+    padding-top: 1rem;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #111111;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: .75rem;
+    padding: 1em;
+    display: none;
+    opacity: .6;
+}
+/* title */
+.colleges {
+    text-align: center;
+}
+.college-title {
+    height: 3rem;
+    background-color: #fea01a;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.line {
+    height: 1rem;
+    background-color: #003366;
+}
